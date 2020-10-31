@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+
+@font-face {
+    font-family: 'Abdomaster';
+    src: local('Abdomaster'), url(./fonts/Abdomaster/Abdomaster-Balck.ttf) format('ttf');
+  }
+  
+
+@tailwind utilities;
