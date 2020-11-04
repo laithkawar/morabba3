@@ -414,7 +414,7 @@ ul {
  */
 
 html {
-  font-family: Abdomaster; /* 1 */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -550,7 +550,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 /**
@@ -612,12 +612,6 @@ video {
   .container {
     max-width: 1280px;
   }
-}
-
-@font-face {
-  font-family: 'Abdomaster';
-
-  src: local('Abdomaster'), url(./fonts/Abdomaster/Abdomaster-Balck.ttf) format('ttf');
 }
 
 .space-y-0 > :not(template) ~ :not(template) {
@@ -10187,16 +10181,8 @@ video {
   clear: none;
 }
 
-.font-sans {
-  font-family: Abdomaster;
-}
-
-.font-serif {
-  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
-.font-mono {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+.font-Tajawal {
+  font-family: "Tajawal", sans-serif;
 }
 
 .font-hairline {
@@ -21240,6 +21226,10 @@ video {
           animation: bounce 1s infinite;
 }
 
+.font-Tajawal {
+  font-family: "Tajawal", sans-serif;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -30836,16 +30826,8 @@ video {
     clear: none;
   }
 
-  .sm\:font-sans {
-    font-family: Abdomaster;
-  }
-
-  .sm\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .sm\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  .sm\:font-Tajawal {
+    font-family: "Tajawal", sans-serif;
   }
 
   .sm\:font-hairline {
@@ -51420,16 +51402,8 @@ video {
     clear: none;
   }
 
-  .md\:font-sans {
-    font-family: Abdomaster;
-  }
-
-  .md\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .md\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  .md\:font-Tajawal {
+    font-family: "Tajawal", sans-serif;
   }
 
   .md\:font-hairline {
@@ -72004,16 +71978,8 @@ video {
     clear: none;
   }
 
-  .lg\:font-sans {
-    font-family: Abdomaster;
-  }
-
-  .lg\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .lg\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  .lg\:font-Tajawal {
+    font-family: "Tajawal", sans-serif;
   }
 
   .lg\:font-hairline {
@@ -92588,16 +92554,8 @@ video {
     clear: none;
   }
 
-  .xl\:font-sans {
-    font-family: Abdomaster;
-  }
-
-  .xl\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .xl\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  .xl\:font-Tajawal {
+    font-family: "Tajawal", sans-serif;
   }
 
   .xl\:font-hairline {
