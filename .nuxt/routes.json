@@ -1,0 +1,16 @@
+[
+  {
+    "name": "thank-you",
+    "path": "/thank-you",
+    "component": "/Users/laithkawar/Dev/nuxt-tailwind-purgecss/src/pages/thank-you.vue",
+    "chunkName": "pages/thank-you",
+    "_name": "_047d58d1"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/laithkawar/Dev/nuxt-tailwind-purgecss/src/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_25fcbb32"
+  }
+]

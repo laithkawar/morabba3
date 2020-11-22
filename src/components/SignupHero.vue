@@ -1,0 +1,65 @@
+<template>
+  <div class="max-w-screen-lg mx-auto md:flex font-Tajawal">
+    <div
+      class="max-w-screen-md mx-auto mt-10 mr-6 lg:w-1/2 md:w-1/2 sm:w-full sm:max-w-screen-md sm:mt-16 md:mt-22 lg:mt-28 xl:mt-36"
+    >
+      <div class="text-center">
+        <h2
+          class="text-4xl font-extrabold text-gray-800 md:leading-11 sm:text-center md:text-right sm:text-2xl sm:leading-14 md:text-4xl lg:text-5xl"
+        >
+          صمم علامتك التجارية المثاليه بدقائق
+          <br class="xl:hidden" />
+        </h2>
+        <p
+          class="max-w-sm mx-auto mt-4 text-gray-500 lg:mr-2 sm:text-center md:text-right sm:text-lg md:mt-12 md:text-xl md:max-w-2xl"
+        >
+          استخدم منصة “مربع” المدعومة بالذكاء الاصطناعي لتصميم شعار بنفسك وبناء
+          علامة تجارية تحبها.
+        </p>
+      </div>
+    </div>
+    <div
+      class="flex-col justify-center min-h-full px-10 sm:py-14 md:py-12 md:w-1/2 w-fullflex sm:px-8 md:px-10 lg:px-12"
+    >
+      <div class="mt-6 sm:mx-auto sm:w-full sm:max-w-md">
+        <div class="px-2 py-8 bg-white shadow sm:rounded-lg sm:px-5">
+          <form
+            action="https://gmail.us2.list-manage.com/subscribe/post?u=dae534f8b5213e1878378fb2d&amp;id=d0c72289ed"
+            method="POST"
+          >
+            <div>
+              <label
+                for="email"
+                class="block mt-4 mb-8 text-xl leading-5 text-center text-gray-700 font-large"
+              >
+                أدخل عنوان بريدك الاكتروني
+              </label>
+              <div class="mt-2 rounded-md shadow-sm">
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="johndoe@gmail.com"
+                  name="EMAIL"
+                  required
+                  class="block w-full px-3 py-3 text-left placeholder-gray-400 transition duration-150 ease-in-out border border-gray-300 rounded-md appearance-none focus:outline-none focus:shadow-outline-blue focus:border-blue-300 sm:text-sm sm:leading-5"
+                />
+              </div>
+            </div>
+            <div class="mt-6">
+              <span class="block w-full rounded-md shadow-sm">
+                <button
+                  type="submit"
+                  value="Subscribe"
+                  name="subscribe"
+                  class="flex justify-center w-full px-3 py-3 text-sm font-medium text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700"
+                >
+                  ابدأ بالتصميم الآن
+                </button>
+              </span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
