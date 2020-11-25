@@ -1,24 +1,21 @@
 {
-  "name": "nuxt-tailwind-purgecss",
+  "name": "morabba3",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt generate"
+    "build": "nuxt generate",
+    "serve": "nuxt serve"
   },
   "dependencies": {
-    "@nuxtjs/google-fonts": "^1.2.0",
-    "@tailwindcss/ui": "^0.7.2",
-    "nuxt": "^2.12.2",
-    "tailwindcss": "^1.2.0"
+    "nuxt": "^2.14.7",
+    "nuxt-rfg-icon": "^0.6.4"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^1.4.0"
-  },
-  "prettier": {
-    "semi": false,
-    "singleQuote": true,
-    "trailingComma": "none"
+    "@nuxtjs/google-fonts": "^1.2.0",
+    "@nuxtjs/tailwindcss": "^3.2.0",
+    "@tailwindcss/ui": "^0.7.2",
+    "tailwindcss": "^1.9.6"
   }
 }

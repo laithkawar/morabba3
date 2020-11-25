@@ -5,19 +5,19 @@
  ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
  */
 
- const defaultTheme = require("tailwindcss/defaultTheme");
+const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
   theme: {
     extend: {
-      colors: {
-        purple: 'rebeccapurple'
-      },
+      // colors: {
+      //   purple: 'rebeccapurple'
+      // },
       fontFamily: {
-        sans: ["Tajawal", ...defaultTheme.fontFamily.sans]
-      }  
+        sans: ['Tajawal', ...defaultTheme.fontFamily.sans]
+      }
     }
   },
   variants: {},
-  plugins: []
-}
+  plugins: [require('@tailwindcss/ui')]
+};

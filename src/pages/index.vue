@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Head />
     <SignupHero />
     <FullWidthImage />
     <TextSection
