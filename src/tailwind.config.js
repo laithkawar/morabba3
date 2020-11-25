@@ -18,6 +18,15 @@ module.exports = {
       }
     }
   },
+  purge: {
+    // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css
+    enabled: process.env.NODE_ENV === 'production',
+
+    // If you really want to remove all unused styles, use the mode: 'all'
+    // option and be very careful to provide the paths to all files that might
+    // reference any classes or HTML elements
+    mode: 'all'
+  },
   variants: {},
   plugins: [require('@tailwindcss/ui')]
 };
