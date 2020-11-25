@@ -2,15 +2,15 @@
   {
     "name": "thank-you",
     "path": "/thank-you",
-    "component": "/Users/laithkawar/Dev/morabba3/src/pages/thank-you.vue",
+    "component": "/home/kay/devel/morabba3/src/pages/thank-you.vue",
     "chunkName": "pages/thank-you",
-    "_name": "_0a01b311"
+    "_name": "_1db1ed88"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/laithkawar/Dev/morabba3/src/pages/index.vue",
+    "component": "/home/kay/devel/morabba3/src/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_554d1ca7"
+    "_name": "_07332a9e"
   }
 ]
