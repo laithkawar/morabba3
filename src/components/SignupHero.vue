@@ -1,11 +1,11 @@
 <template>
   <div class="max-w-screen-lg mx-auto md:flex font-Tajawal">
     <div
-      class="max-w-screen-md mx-auto mt-10 mr-6 lg:w-1/2 md:w-1/2 sm:w-full sm:max-w-screen-md sm:mt-16 md:mt-22 lg:mt-28 xl:mt-36"
+      class="max-w-screen-md mx-auto mt-10 md:mr-6 lg:w-1/2 md:w-1/2 sm:w-full sm:max-w-screen-md sm:mt-16 md:mt-22 lg:mt-28 xl:mt-36"
     >
       <div class="text-center">
         <h2
-          class="text-4xl font-extrabold text-gray-800 md:leading-11 sm:text-center md:text-right sm:text-2xl sm:leading-14 md:text-4xl lg:text-5xl"
+          class="text-2xl font-extrabold text-gray-800 md:leading-11 sm:text-center md:text-right sm:leading-14 md:text-3xl lg:text-4xl"
         >
           صمم علامتك التجارية المثاليه بدقائق
           <br class="xl:hidden" />

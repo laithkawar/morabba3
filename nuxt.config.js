@@ -10,6 +10,7 @@ export default {
         hid: 'description',
         name: 'description',
         content: 'A Nuxt.js example with Tailwind CSS v1.0 and Purgecss'
+        
       },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { 'http-equiv': 'x-ua-compatible', content: 'ie=edge,chrome=1' }
@@ -20,5 +21,10 @@ export default {
     }
   },
   modules: [],
-  buildModules: ['@nuxtjs/tailwindcss']
+  buildModules: [
+    // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
+    "@nuxtjs/tailwindcss",
+    // Doc: https://github.com/nuxt-community/google-fonts-module
+    "@nuxtjs/google-fonts"
+  ]
 }

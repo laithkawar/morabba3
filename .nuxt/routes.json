@@ -2,15 +2,15 @@
   {
     "name": "thank-you",
     "path": "/thank-you",
-    "component": "/Users/laithkawar/Dev/nuxt-tailwind-purgecss/src/pages/thank-you.vue",
+    "component": "/Users/laithkawar/Dev/morabba3/src/pages/thank-you.vue",
     "chunkName": "pages/thank-you",
-    "_name": "_047d58d1"
+    "_name": "_0a01b311"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/laithkawar/Dev/nuxt-tailwind-purgecss/src/pages/index.vue",
+    "component": "/Users/laithkawar/Dev/morabba3/src/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_25fcbb32"
+    "_name": "_554d1ca7"
   }
 ]
