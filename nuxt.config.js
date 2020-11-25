@@ -30,9 +30,9 @@ export default {
     // Doc: https://github.com/nuxt-community/google-fonts-module
     '@nuxtjs/google-fonts'
   ],
-  build: {
-    analyze: true
-  },
+  // build: {
+  //   analyze: true
+  // },
   googleFonts: {
     families: { Tajawal: [400, 700, 900] }, // Loads Tajawal font with weights 400 and 700
     display: 'swap'
