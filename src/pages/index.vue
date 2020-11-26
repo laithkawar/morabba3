@@ -17,7 +17,7 @@
 
     <section class="text-gray-700 body-font">
       <div class="container px-5 py-2 mx-auto">
-        <div class="flex flex-wrap m-4">
+        <div class="flex flex-wrap">
           <ImageAndText
             header="١.أدخل اسم الشركه و مجال العمل"
             subheader="زودنا بالمعلومات الأساسية التي نحتاجها لبدء تصميم شعارك المثالي."
@@ -50,8 +50,8 @@
 
 
 <script>
-import ImageAndText from '../components/ImageAndText.vue'
+import ImageAndText from '../components/ImageAndText.vue';
 export default {
-  components: { ImageAndText }
-}
+  components: { ImageAndText },
+};
 </script>
