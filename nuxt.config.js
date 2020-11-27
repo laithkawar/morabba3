@@ -1,12 +1,9 @@
 export default {
-
   target: 'static',
-
   server: {
     port: 3000, // default: 3000
     host: '0.0.0.0' // default: localhost
   },
-
   srcDir: 'src',
   // Auto load components. Docs: https://github.com/nuxt/components
   components: true,
@@ -35,13 +32,20 @@ export default {
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
     // Doc: https://github.com/nuxt-community/google-fonts-module
-    '@nuxtjs/google-fonts'
+    '@nuxtjs/google-fonts',
+    // Doc: https://github.com/juliomrqz/nuxt-optimized-images
+    '@aceforth/nuxt-optimized-images'
   ],
   // build: {
+  //   // when this is enabled, you can inspect the size of the build
   //   analyze: true
   // },
   googleFonts: {
-    families: { Tajawal: [400, 700, 900] }, // Loads Tajawal font with weights 400 and 700
+    families: { Tajawal: [400, 600, 800] }, // Loads Tajawal font with weights 400 and 700
     display: 'swap'
+  },
+  optimizedImages: {
+    optimizeImages: true,
+    optimizeImagesInDev: true
   }
 };
