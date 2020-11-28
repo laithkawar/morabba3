@@ -3,74 +3,204 @@
     <div class="max-w-screen-xl px-4 py-12 mx-auto sm:mx-auto lg:py-16 lg:px-8">
       <div class="mt-2 grid grid-cols-2 gap-0.1 md:grid-cols-5 lg:mt-8">
         <div class="flex justify-center col-span-1 px-4 py-4 max-w-64">
-          <img
-            class="rounded-md shadow-md"
-            src="images/Dragon-Games.jpg"
-            alt="Dragon-Games"
-          />
+          <picture>
+            <source
+              :srcSet="require('~/assets/images/Dragon-Games.jpg?webp')"
+              type="image/webp"
+            />
+            <source
+              :srcSet="
+                require('~/assets/images/Dragon-Games.jpg?resize&sizes[]=640&sizes[]=1080&sizes[]=2160')
+                  .srcSet
+              "
+              type="image/jpeg"
+            />
+            <img
+              :src="require('~/assets/images/Dragon-Games.jpg')"
+              class="rounded-md shadow-md"
+              alt="Dragon-Games"
+            />
+          </picture>
         </div>
         <div class="flex justify-center col-span-1 px-4 py-4 max-w-64">
-          <img
-            class="rounded-md shadow-md"
-            src="images/Studio-Tamimi.jpg"
-            alt="Studio-Tamimi"
-          />
+          <picture>
+            <source
+              :srcSet="require('~/assets/images/Studio-Tamimi.jpg?webp')"
+              type="image/webp"
+            />
+            <source
+              :srcSet="
+                require('~/assets/images/Studio-Tamimi.jpg?resize&sizes[]=640&sizes[]=1080&sizes[]=2160')
+                  .srcSet
+              "
+              type="image/jpeg"
+            />
+            <img
+              :src="require('~/assets/images/Studio-Tamimi.jpg')"
+              class="rounded-md shadow-md"
+              alt="Studio-Tamimi"
+            />
+          </picture>
         </div>
         <div class="flex justify-center col-span-1 px-4 py-4 max-w-64">
-          <img
-            class="rounded-md shadow-md"
-            src="images/Zahran-Realstate.jpg"
-            alt="Zahran-Realstate"
-          />
+          <picture>
+            <source
+              :srcSet="require('~/assets/images/Zahran-Realstate.jpg?webp')"
+              type="image/webp"
+            />
+            <source
+              :srcSet="
+                require('~/assets/images/Zahran-Realstate.jpg?resize&sizes[]=640&sizes[]=1080&sizes[]=2160')
+                  .srcSet
+              "
+              type="image/jpeg"
+            />
+            <img
+              :src="require('~/assets/images/Zahran-Realstate.jpg')"
+              class="rounded-md shadow-md"
+              alt="DZahran-Realstate"
+            />
+          </picture>
         </div>
         <div class="flex justify-center col-span-1 px-4 py-4 max-w-64">
-          <img
-            class="rounded-md shadow-md"
-            src="images/Unite-Insurance.jpg"
-            alt="Unite-Insurance"
-          />
+          <picture>
+            <source
+              :srcSet="require('~/assets/images/Unite-Insurance.jpg?webp')"
+              type="image/webp"
+            />
+            <source
+              :srcSet="
+                require('~/assets/images/Unite-Insurance.jpg?resize&sizes[]=640&sizes[]=1080&sizes[]=2160')
+                  .srcSet
+              "
+              type="image/jpeg"
+            />
+            <img
+              :src="require('~/assets/images/Unite-Insurance.jpg')"
+              class="rounded-md shadow-md"
+              alt="nite-Insurance"
+            />
+          </picture>
         </div>
         <div class="flex justify-center col-span-1 px-4 py-4 max-w-64">
-          <img
-            class="rounded-md shadow-md"
-            src="images/Language-Center.jpg"
-            alt="Language-Center"
-          />
+          <picture>
+            <source
+              :srcSet="require('~/assets/images/Language-Center.jpg?webp')"
+              type="image/webp"
+            />
+            <source
+              :srcSet="
+                require('~/assets/images/Language-Center.jpg?resize&sizes[]=640&sizes[]=1080&sizes[]=2160')
+                  .srcSet
+              "
+              type="image/jpeg"
+            />
+            <img
+              :src="require('~/assets/images/Language-Center.jpg')"
+              class="rounded-md shadow-md"
+              alt="Language-Center"
+            />
+          </picture>
         </div>
         <div class="flex justify-center col-span-1 px-4 py-4 max-w-64">
-          <img
-            class="rounded-md shadow-md"
-            src="images/Salwas-Boutique.jpg"
-            alt="Salwas-Boutique"
-          />
+          <picture>
+            <source
+              :srcSet="require('~/assets/images/Salwas-Boutique.jpg?webp')"
+              type="image/webp"
+            />
+            <source
+              :srcSet="
+                require('~/assets/images/Salwas-Boutique.jpg?resize&sizes[]=640&sizes[]=1080&sizes[]=2160')
+                  .srcSet
+              "
+              type="image/jpeg"
+            />
+            <img
+              :src="require('~/assets/images/Salwas-Boutique.jpg')"
+              class="rounded-md shadow-md"
+              alt="Salwas-Boutique"
+            />
+          </picture>
         </div>
         <div class="flex justify-center col-span-1 px-4 py-4 max-w-64">
-          <img
-            class="rounded-md shadow-md"
-            src="images/Maher-Jewlery.jpg"
-            alt="Maher-Jewlery"
-          />
+          <picture>
+            <source
+              :srcSet="require('~/assets/images/Maher-Jewlery.jpg?webp')"
+              type="image/webp"
+            />
+            <source
+              :srcSet="
+                require('~/assets/images/Maher-Jewlery.jpg?resize&sizes[]=640&sizes[]=1080&sizes[]=2160')
+                  .srcSet
+              "
+              type="image/jpeg"
+            />
+            <img
+              :src="require('~/assets/images/Maher-Jewlery.jpg')"
+              class="rounded-md shadow-md"
+              alt="Maher-Jewlery"
+            />
+          </picture>
         </div>
         <div class="flex justify-center col-span-1 px-4 py-4 max-w-64">
-          <img
-            class="rounded-md shadow-md"
-            src="images/Abuhussam-Saloon.jpg"
-            alt="Abuhussam-Saloon"
-          />
+          <picture>
+            <source
+              :srcSet="require('~/assets/images/Abuhussam-Saloon.jpg?webp')"
+              type="image/webp"
+            />
+            <source
+              :srcSet="
+                require('~/assets/images/Abuhussam-Saloon.jpg?resize&sizes[]=640&sizes[]=1080&sizes[]=2160')
+                  .srcSet
+              "
+              type="image/jpeg"
+            />
+            <img
+              :src="require('~/assets/images/Abuhussam-Saloon.jpg')"
+              class="rounded-md shadow-md"
+              alt="Abuhussam-Saloon"
+            />
+          </picture>
         </div>
         <div class="flex justify-center col-span-1 px-4 py-4 max-w-64">
-          <img
-            class="rounded-md shadow-md"
-            src="images/Natural-Pharmacy.jpg"
-            alt="Natural-Pharmacy"
-          />
+          <picture>
+            <source
+              :srcSet="require('~/assets/images/Natural-Pharmacy.jpg?webp')"
+              type="image/webp"
+            />
+            <source
+              :srcSet="
+                require('~/assets/images/Natural-Pharmacy.jpg?resize&sizes[]=640&sizes[]=1080&sizes[]=2160')
+                  .srcSet
+              "
+              type="image/jpeg"
+            />
+            <img
+              :src="require('~/assets/images/Natural-Pharmacy.jpg')"
+              class="rounded-md shadow-md"
+              alt="Natural-Pharmacy"
+            />
+          </picture>
         </div>
         <div class="flex justify-center col-span-1 px-4 py-4 max-w-64">
-          <img
-            class="rounded-md shadow-md"
-            src="images/Neon-Gaming.jpg"
-            alt="Neon-Gaming"
-          />
+          <picture>
+            <source
+              :srcSet="require('~/assets/images/Neon-Gaming.jpg?webp')"
+              type="image/webp"
+            />
+            <source
+              :srcSet="
+                require('~/assets/images/Neon-Gaming.jpg?resize&sizes[]=640&sizes[]=1080&sizes[]=2160')
+                  .srcSet
+              "
+              type="image/jpeg"
+            />
+            <img
+              :src="require('~/assets/images/Neon-Gaming.jpg')"
+              class="rounded-md shadow-md"
+              alt="Neon-Gaming"
+            />
+          </picture>
         </div>
       </div>
     </div>
