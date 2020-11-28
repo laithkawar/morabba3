@@ -46,6 +46,7 @@ export default {
   },
   optimizedImages: {
     optimizeImages: true,
-    optimizeImagesInDev: true
+    optimizeImagesInDev: true,
+    inlineImageLimit: 5000
   }
 };

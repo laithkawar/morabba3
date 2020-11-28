@@ -12,23 +12,14 @@
           >
             <div class="flex items-center justify-between w-full md:w-auto">
               <a href="#" aria-label="Home">
-                <picture>
-                  <source
-                    :srcSet="require('~/assets/images/square-logo.svg?webp')"
-                    type="image/webp"
-                  />
-                  <source
-                    :srcSet="
-                      require('~/assets/images/square-logo.svg?resize&sizes[]=640&sizes[]=1080&sizes[]=2160')
-                        .srcSet
-                    "
-                    type="image/jpeg"
-                  />
-                  <img
-                    :src="require('~/assets/images/square-logo.svg')"
-                    class="flex-shrink-0 object-cover object-center w-64 mb-4 rounded-lg shadow-lg sm:mb-5"
-                  />
-                </picture>
+                <!-- <img
+                  :src="require('~/assets/images/square-logo.svg')"
+                  class="w-10"
+                /> -->
+                <div
+                  v-html="require('~/assets/images/square-logo.svg?include')"
+                  class="w-10"
+                />
               </a>
               <div class="flex items-center -mr-2 md:hidden">
                 <button

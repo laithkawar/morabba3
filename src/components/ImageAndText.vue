@@ -12,9 +12,10 @@
           :srcSet="
             require('~/assets/images/' +
               image +
-              '?resize&sizes[]=640&sizes[]=1080&sizes[]=2160').srcSet
+              '?resize&sizes[]=320&sizes[]=640&sizes[]=1080&sizes[]=2160')
+              .srcSet
           "
-          type="image/jpeg"
+          type="image/gif"
         /> -->
         <img
           :src="require('~/assets/images/' + image + '')"
