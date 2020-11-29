@@ -21,14 +21,14 @@
       :data-srcset="
         require('~/assets/images/' +
           src +
-          '?resize&min=320&max=2160&steps=4&format=webp').srcset
+          '?resize&min=320&max=2160&steps=4&format=webp').srcSet
       "
       type="image/webp"
     />
     <source
       :data-srcset="
         require('~/assets/images/' + src + '?resize&min=320&max=1080&steps=3')
-          .srcset
+          .srcSet
       "
       type="image/jpeg"
     />
@@ -46,14 +46,14 @@
       :data-srcset="
         require('~/assets/images/' +
           src +
-          '?resize&min=180&max=640&steps=3&format=webp').srcset
+          '?resize&min=180&max=640&steps=3&format=webp').srcSet
       "
       type="image/webp"
     />
     <source
       :data-srcset="
         require('~/assets/images/' + src + '?resize&min=180&max=640&steps=3')
-          .srcset
+          .srcSet
       "
       type="image/jpeg"
     />
@@ -71,14 +71,14 @@
       :data-srcset="
         require('~/assets/images/' +
           src +
-          '?resize&min=100&max=200&steps=2&format=webp').srcset
+          '?resize&min=100&max=200&steps=2&format=webp').srcSet
       "
       type="image/webp"
     />
     <source
       :data-srcset="
         require('~/assets/images/' + src + '?resize&min=100&max=200&steps=2')
-          .srcset
+          .srcSet
       "
       type="image/jpeg"
     />
