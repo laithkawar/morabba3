@@ -1,4 +1,6 @@
 <template>
+  <!-- For explanation of v-if v-else see https://vuejs.org/v2/guide/conditional.html -->
+  <!--  -->
   <!-- prop 'size' is lg -->
   <picture v-if="size == 'lg'">
     <source
