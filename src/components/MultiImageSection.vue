@@ -3,28 +3,10 @@
     <div class="max-w-screen-xl px-4 py-12 mx-auto sm:mx-auto lg:py-16 lg:px-8">
       <div class="mt-2 grid grid-cols-2 gap-0.1 md:grid-cols-5 lg:mt-8">
         <div class="flex justify-center col-span-1 px-4 py-4 max-w-64">
-          <!-- Dragon-Games.jpg -->
-          <BaseImg src="Dragon-Games.jpg" />
+          <BaseImg img-class="rounded-md shadow-md" src="Dragon-Games.jpg" />
         </div>
         <div class="flex justify-center col-span-1 px-4 py-4 max-w-64">
-          <picture>
-            <source
-              :srcSet="require('~/assets/images/Studio-Tamimi.jpg?webp')"
-              type="image/webp"
-            />
-            <source
-              :srcSet="
-                require('~/assets/images/Studio-Tamimi.jpg?resize&sizes[]=640&sizes[]=1080&sizes[]=2160')
-                  .srcSet
-              "
-              type="image/jpeg"
-            />
-            <img
-              :src="require('~/assets/images/Studio-Tamimi.jpg')"
-              class="rounded-md shadow-md"
-              alt="Studio-Tamimi"
-            />
-          </picture>
+          <BaseImg img-class="rounded-md shadow-md" src="Studio-Tamimi.jpg" />
         </div>
         <div class="flex justify-center col-span-1 px-4 py-4 max-w-64">
           <picture>
