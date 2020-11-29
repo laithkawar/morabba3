@@ -55,7 +55,7 @@
               >أمثله</a
             >
             <a
-              href="#"
+              href="#how-it-works"
               class="font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900"
               >كيف تعمل</a
             >
