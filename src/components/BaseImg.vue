@@ -1,7 +1,8 @@
 <template>
   <!-- For explanation of v-if v-else see https://vuejs.org/v2/guide/conditional.html -->
   <!--  -->
-  <!-- if gif filetype -->
+  <!-- if gif filetype, no reponsive sizes generated, just webp and compression -->
+  <!-- Note: for GIF, the `size` property is ignored -->
   <picture v-if="isGif()">
     <source
       :data-srcset="require('~/assets/images_gif/' + src + '?webp')"
