@@ -5,7 +5,7 @@
       :srcSet="
         require('~/assets/images/' +
           src +
-          '?resize&min=320&max=1080&steps=3&format=webp').srcSet
+          '?resize&min=320&max=2160&steps=4&format=webp').srcSet
       "
       type="image/webp"
     />
@@ -16,11 +16,7 @@
       "
       type="image/jpeg"
     />
-    <img
-      :src="require('~/assets/images/' + src)"
-      :class="['w-full', imgClass]"
-      :alt="alt"
-    />
+    <img :src="require('~/assets/images/' + src)" :alt="alt" />
   </picture>
 
   <!-- prop 'size' is md -->
@@ -40,11 +36,7 @@
       "
       type="image/jpeg"
     />
-    <img
-      :src="require('~/assets/images/' + src)"
-      :alt="alt"
-      :class="['w-full', imgClass]"
-    />
+    <img :src="require('~/assets/images/' + src)" :alt="alt" />
   </picture>
 
   <!-- prop 'size' is sm -->
@@ -64,11 +56,7 @@
       "
       type="image/jpeg"
     />
-    <img
-      :src="require('~/assets/images/' + src)"
-      :class="['w-full', imgClass]"
-      :alt="alt"
-    />
+    <img :src="require('~/assets/images/' + src)" :alt="alt" />
   </picture>
 </template>
 
@@ -91,11 +79,21 @@ export default {
       type: String,
       default: 'md',
     },
-    // classes to apply to inner <img> tag
-    imgClass: {
-      type: String,
-      default: '',
-    },
+    // // classes to apply to inner <img> tag (tailwindcss and so on)
+    // imgClass: {
+    //   type: String,
+    //   default: '',
+    // },
   },
 };
 </script>
+
+<style scoped>
+picture {
+  @apply overflow-hidden;
+}
+
+picture img {
+  @apply w-full;
+}
+</style>

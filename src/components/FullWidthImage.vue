@@ -1,6 +1,11 @@
 <template>
   <figure>
-    <picture>
+    <BaseImg
+      size="lg"
+      class="object-cover w-full mt-20 mb-20"
+      src="Branding-main.jpg"
+    />
+    <!-- <picture>
       <source
         :srcSet="require('~/assets/images/Branding-main.jpg?webp')"
         type="image/webp"
@@ -16,6 +21,6 @@
         :src="require('~/assets/images/Branding-main.jpg')"
         class="object-cover w-full mt-20 mb-20"
       />
-    </picture>
+    </picture> -->
   </figure>
 </template>
