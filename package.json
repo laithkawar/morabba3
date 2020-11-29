@@ -22,6 +22,7 @@
     "imagemin-pngquant": "^9.0.1",
     "imagemin-svgo": "^8.0.0",
     "lqip-loader": "^2.2.1",
+    "nuxt-lazysizes": "^1.1.1",
     "responsive-loader": "^2.2.0",
     "sharp": "^0.26.3",
     "sqip-loader": "^1.0.0",

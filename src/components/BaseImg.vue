@@ -1,64 +1,92 @@
 <template>
   <!-- For explanation of v-if v-else see https://vuejs.org/v2/guide/conditional.html -->
   <!--  -->
-  <!-- prop 'size' is lg -->
-  <picture v-if="size == 'lg'">
+  <!-- if gif filetype -->
+  <picture v-if="isGif()">
     <source
-      :srcSet="
+      :data-srcset="require('~/assets/images_gif/' + src + '?webp')"
+      type="image/webp"
+    />
+    <img
+      :data-src="require('~/assets/images_gif/' + src)"
+      class="lazyload"
+      :alt="alt"
+    />
+  </picture>
+
+  <!-- prop 'size' is lg -->
+  <picture v-else-if="size == 'lg'">
+    <source
+      :data-srcset="
         require('~/assets/images/' +
           src +
-          '?resize&min=320&max=2160&steps=4&format=webp').srcSet
+          '?resize&min=320&max=2160&steps=4&format=webp').srcset
       "
       type="image/webp"
     />
     <source
-      :srcSet="
+      :data-srcset="
         require('~/assets/images/' + src + '?resize&min=320&max=1080&steps=3')
-          .srcSet
+          .srcset
       "
       type="image/jpeg"
     />
-    <img :src="require('~/assets/images/' + src)" :alt="alt" />
+    <img
+      :data-src="require('~/assets/images/' + src)"
+      :src="require('~/assets/images/' + src + '?lqip')"
+      class="lazyload"
+      :alt="alt"
+    />
   </picture>
 
   <!-- prop 'size' is md -->
   <picture v-else-if="size == 'md'">
     <source
-      :srcSet="
+      :data-srcset="
         require('~/assets/images/' +
           src +
-          '?resize&min=180&max=640&steps=3&format=webp').srcSet
+          '?resize&min=180&max=640&steps=3&format=webp').srcset
       "
       type="image/webp"
     />
     <source
-      :srcSet="
+      :data-srcset="
         require('~/assets/images/' + src + '?resize&min=180&max=640&steps=3')
-          .srcSet
+          .srcset
       "
       type="image/jpeg"
     />
-    <img :src="require('~/assets/images/' + src)" :alt="alt" />
+    <img
+      :data-src="require('~/assets/images/' + src)"
+      :src="require('~/assets/images/' + src + '?lqip')"
+      class="lazyload"
+      :alt="alt"
+    />
   </picture>
 
   <!-- prop 'size' is sm -->
   <picture v-else>
     <source
-      :srcSet="
+      :data-srcset="
         require('~/assets/images/' +
           src +
-          '?resize&min=100&max=200&steps=2&format=webp').srcSet
+          '?resize&min=100&max=200&steps=2&format=webp').srcset
       "
       type="image/webp"
     />
     <source
-      :srcSet="
+      :data-srcset="
         require('~/assets/images/' + src + '?resize&min=100&max=200&steps=2')
-          .srcSet
+          .srcset
       "
       type="image/jpeg"
     />
-    <img :src="require('~/assets/images/' + src)" :alt="alt" />
+    <img
+      :data-src="require('~/assets/images/' + src)"
+      :src="require('~/assets/images/' + src + '?lqip')"
+      class="lazyload"
+      :alt="alt"
+    />
   </picture>
 </template>
 
@@ -87,6 +115,11 @@ export default {
     //   default: '',
     // },
   },
+  methods: {
+    isGif() {
+      return this.src.endsWith('.gif');
+    },
+  },
 };
 </script>
 
@@ -96,6 +129,6 @@ picture {
 }
 
 picture img {
-  @apply w-full;
+  @apply w-full object-cover object-center;
 }
 </style>

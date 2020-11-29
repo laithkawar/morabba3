@@ -3,25 +3,11 @@
     <div
       class="flex flex-col items-center justify-center h-full text-center md:items-start sm:flex-row sm:justify-start sm:text-right"
     >
-      <picture>
-        <source
-          :srcSet="require('~/assets/images/' + image + '?webp')"
-          type="image/webp"
-        />
-        <!-- <source
-          :srcSet="
-            require('~/assets/images/' +
-              image +
-              '?resize&sizes[]=320&sizes[]=640&sizes[]=1080&sizes[]=2160')
-              .srcSet
-          "
-          type="image/gif"
-        /> -->
-        <img
-          :src="require('~/assets/images/' + image + '')"
-          class="flex-shrink-0 object-cover object-center w-64 mb-4 rounded-lg shadow-lg sm:mb-5"
-        />
-      </picture>
+      <BaseImg
+        :src="image"
+        class="flex-shrink-0 w-64 mb-4 rounded-lg shadow-lg sm:mb-5"
+      />
+
       <div class="flex-grow mr-6 sm:pl-8">
         <h1 class="mb-3 text-xl font-medium text-gray-900 title-font">
           {{ header }}

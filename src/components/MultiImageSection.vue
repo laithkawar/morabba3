@@ -5,12 +5,15 @@
         <div class="flex justify-center col-span-1 px-4 py-4 max-w-64">
           <BaseImg
             size="md"
-            class="rounded-md shadow-md"
+            class="w-full rounded-md shadow-md"
             src="Dragon-Games.jpg"
           />
         </div>
         <div class="flex justify-center col-span-1 px-4 py-4 max-w-64">
-          <BaseImg class="rounded-md shadow-md" src="Studio-Tamimi.jpg" />
+          <BaseImg
+            class="w-full rounded-md shadow-md"
+            src="Studio-Tamimi.jpg"
+          />
         </div>
         <div class="flex justify-center col-span-1 px-4 py-4 max-w-64">
           <picture>

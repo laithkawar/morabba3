@@ -34,7 +34,9 @@ export default {
     // Doc: https://github.com/nuxt-community/google-fonts-module
     '@nuxtjs/google-fonts',
     // Doc: https://github.com/juliomrqz/nuxt-optimized-images
-    '@aceforth/nuxt-optimized-images'
+    '@aceforth/nuxt-optimized-images',
+    // Doc: https://github.com/ivodolenc/nuxt-lazysizes
+    'nuxt-lazysizes'
   ],
   // build: {
   //   // when this is enabled, you can inspect the size of the build
