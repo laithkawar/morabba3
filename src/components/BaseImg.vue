@@ -129,6 +129,8 @@ picture {
 }
 
 picture img {
-  @apply w-full object-cover object-center;
+  @apply w-full;
+  @apply object-cover;
+  @apply object-center;
 }
 </style>
