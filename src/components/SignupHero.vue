@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-screen-lg mx-auto md:flex font-Tajawal">
+  <div class="max-w-screen-lg mx-auto md:flex">
     <div
       class="max-w-screen-md mx-auto mt-10 md:mr-6 lg:w-1/2 md:w-1/2 sm:w-full sm:max-w-screen-md sm:mt-16 md:mt-24 lg:mt-24 xl:mt-24"
     >
