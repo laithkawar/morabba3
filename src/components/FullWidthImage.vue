@@ -2,8 +2,9 @@
   <figure>
     <BaseImg
       size="lg"
-      class="object-cover w-full mt-20 mb-20"
+      class="object-cover w-full mt-20 mb-20 opacity-50"
       src="Branding-main.jpg"
+      alt="'علامة تجارية 'براند العامر للمقاولات"
     />
     <!-- <picture>
       <source

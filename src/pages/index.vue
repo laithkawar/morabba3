@@ -1,7 +1,7 @@
 <template>
   <div>
     <SignupHero />
-    <FullWidthImage />
+    <Benefits />
     <TextSection
       header="إجلب رؤيتك إلى الحياة"
       subheader="مصنوع للإستعمال باللغة العربيه وللإستخدام السلس بدون معرفة سابقة
@@ -42,10 +42,38 @@
       </div>
     </section>
     <Button />
-    <TeamSection />
+    <TextSection
+      header="تعارف على الفريق"
+      subheader="يتكون فريقنا من مصممين ومطورين ومبرمجين موهوبين للغاية. اكتشف من هم
+            أدناه!"
+    />
+    <div
+      class="max-w-screen-xl px-4 py-12 mx-auto text-center sm:px-6 lg:px-8 lg:py-24"
+    >
+      <div class="space-y-12">
+        <ul
+          class="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-3 lg:max-w-5xl"
+        >
+          <TeamSection
+            image="laith.jpg"
+            name="ليث قعوار"
+            position="مؤسس و مصمم رئيسي"
+          />
+          <TeamSection
+            image="tamer1.jpg"
+            name="تامر إسماعيل"
+            position="مبرمج أول"
+          />
+          <TeamSection
+            image="marwa.png"
+            name="مروى تميمي"
+            position="رئيسة قسم التسويق"
+          />
+        </ul>
+      </div>
+    </div>
   </div>
 </template>
-
 
 
 

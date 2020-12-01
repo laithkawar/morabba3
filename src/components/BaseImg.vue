@@ -111,10 +111,10 @@ export default {
       default: 'md',
     },
     // // classes to apply to inner <img> tag (tailwindcss and so on)
-    // imgClass: {
-    //   type: String,
-    //   default: '',
-    // },
+    imgClass: {
+      type: String,
+      default: '',
+    },
   },
   methods: {
     isGif() {

@@ -5,175 +5,82 @@
         <div class="flex justify-center col-span-1 px-4 py-4 max-w-64">
           <BaseImg
             size="md"
-            class="w-full rounded-md shadow-md"
+            class="rounded-md shadow-md"
             src="Dragon-Games.jpg"
+            alt="شعار ألعاب إلكترونيه "
           />
         </div>
         <div class="flex justify-center col-span-1 px-4 py-4 max-w-64">
           <BaseImg
-            class="w-full rounded-md shadow-md"
+            size="md"
+            class="rounded-md shadow-md"
             src="Studio-Tamimi.jpg"
+            alt="شعار ستوديو تصوير "
           />
         </div>
         <div class="flex justify-center col-span-1 px-4 py-4 max-w-64">
-          <picture>
-            <source
-              :srcSet="require('~/assets/images/Zahran-Realstate.jpg?webp')"
-              type="image/webp"
-            />
-            <source
-              :srcSet="
-                require('~/assets/images/Zahran-Realstate.jpg?resize&sizes[]=640&sizes[]=1080&sizes[]=2160')
-                  .srcSet
-              "
-              type="image/jpeg"
-            />
-            <img
-              :src="require('~/assets/images/Zahran-Realstate.jpg')"
-              class="rounded-md shadow-md"
-              alt="DZahran-Realstate"
-            />
-          </picture>
+          <BaseImg
+            size="md"
+            class="rounded-md shadow-md"
+            src="Zahran-Realstate.jpg"
+            alt="شعار شركة عقارات"
+          />
         </div>
         <div class="flex justify-center col-span-1 px-4 py-4 max-w-64">
-          <picture>
-            <source
-              :srcSet="require('~/assets/images/Unite-Insurance.jpg?webp')"
-              type="image/webp"
-            />
-            <source
-              :srcSet="
-                require('~/assets/images/Unite-Insurance.jpg?resize&sizes[]=640&sizes[]=1080&sizes[]=2160')
-                  .srcSet
-              "
-              type="image/jpeg"
-            />
-            <img
-              :src="require('~/assets/images/Unite-Insurance.jpg')"
-              class="rounded-md shadow-md"
-              alt="nite-Insurance"
-            />
-          </picture>
+          <BaseImg
+            size="md"
+            class="rounded-md shadow-md"
+            src="Unite-Insurance.jpg"
+            alt="dشعار شركة تأمين "
+          />
         </div>
         <div class="flex justify-center col-span-1 px-4 py-4 max-w-64">
-          <picture>
-            <source
-              :srcSet="require('~/assets/images/Language-Center.jpg?webp')"
-              type="image/webp"
-            />
-            <source
-              :srcSet="
-                require('~/assets/images/Language-Center.jpg?resize&sizes[]=640&sizes[]=1080&sizes[]=2160')
-                  .srcSet
-              "
-              type="image/jpeg"
-            />
-            <img
-              :src="require('~/assets/images/Language-Center.jpg')"
-              class="rounded-md shadow-md"
-              alt="Language-Center"
-            />
-          </picture>
+          <BaseImg
+            size="md"
+            class="rounded-md shadow-md"
+            src="Language-Center.jpg"
+            alt="شعار معهد لغات "
+          />
         </div>
         <div class="flex justify-center col-span-1 px-4 py-4 max-w-64">
-          <picture>
-            <source
-              :srcSet="require('~/assets/images/Salwas-Boutique.jpg?webp')"
-              type="image/webp"
-            />
-            <source
-              :srcSet="
-                require('~/assets/images/Salwas-Boutique.jpg?resize&sizes[]=640&sizes[]=1080&sizes[]=2160')
-                  .srcSet
-              "
-              type="image/jpeg"
-            />
-            <img
-              :src="require('~/assets/images/Salwas-Boutique.jpg')"
-              class="rounded-md shadow-md"
-              alt="Salwas-Boutique"
-            />
-          </picture>
+          <BaseImg
+            size="md"
+            class="rounded-md shadow-md"
+            src="Salwas-Boutique.jpg"
+            alt="شعار بوتيك ملابس "
+          />
         </div>
         <div class="flex justify-center col-span-1 px-4 py-4 max-w-64">
-          <picture>
-            <source
-              :srcSet="require('~/assets/images/Maher-Jewlery.jpg?webp')"
-              type="image/webp"
-            />
-            <source
-              :srcSet="
-                require('~/assets/images/Maher-Jewlery.jpg?resize&sizes[]=640&sizes[]=1080&sizes[]=2160')
-                  .srcSet
-              "
-              type="image/jpeg"
-            />
-            <img
-              :src="require('~/assets/images/Maher-Jewlery.jpg')"
-              class="rounded-md shadow-md"
-              alt="Maher-Jewlery"
-            />
-          </picture>
+          <BaseImg
+            size="md"
+            class="rounded-md shadow-md"
+            src="Maher-Jewlery.jpg"
+            alt="شعار محل مجوهرات "
+          />
         </div>
         <div class="flex justify-center col-span-1 px-4 py-4 max-w-64">
-          <picture>
-            <source
-              :srcSet="require('~/assets/images/Abuhussam-Saloon.jpg?webp')"
-              type="image/webp"
-            />
-            <source
-              :srcSet="
-                require('~/assets/images/Abuhussam-Saloon.jpg?resize&sizes[]=640&sizes[]=1080&sizes[]=2160')
-                  .srcSet
-              "
-              type="image/jpeg"
-            />
-            <img
-              :src="require('~/assets/images/Abuhussam-Saloon.jpg')"
-              class="rounded-md shadow-md"
-              alt="Abuhussam-Saloon"
-            />
-          </picture>
+          <BaseImg
+            size="md"
+            class="rounded-md shadow-md"
+            src="Abuhussam-Saloon.jpg"
+            alt="شعار صالون حلاقة "
+          />
         </div>
         <div class="flex justify-center col-span-1 px-4 py-4 max-w-64">
-          <picture>
-            <source
-              :srcSet="require('~/assets/images/Natural-Pharmacy.jpg?webp')"
-              type="image/webp"
-            />
-            <source
-              :srcSet="
-                require('~/assets/images/Natural-Pharmacy.jpg?resize&sizes[]=640&sizes[]=1080&sizes[]=2160')
-                  .srcSet
-              "
-              type="image/jpeg"
-            />
-            <img
-              :src="require('~/assets/images/Natural-Pharmacy.jpg')"
-              class="rounded-md shadow-md"
-              alt="Natural-Pharmacy"
-            />
-          </picture>
+          <BaseImg
+            size="md"
+            class="rounded-md shadow-md"
+            src="Natural-Pharmacy.jpg"
+            alt="شعار صيدلية"
+          />
         </div>
         <div class="flex justify-center col-span-1 px-4 py-4 max-w-64">
-          <picture>
-            <source
-              :srcSet="require('~/assets/images/Neon-Gaming.jpg?webp')"
-              type="image/webp"
-            />
-            <source
-              :srcSet="
-                require('~/assets/images/Neon-Gaming.jpg?resize&sizes[]=640&sizes[]=1080&sizes[]=2160')
-                  .srcSet
-              "
-              type="image/jpeg"
-            />
-            <img
-              :src="require('~/assets/images/Neon-Gaming.jpg')"
-              class="rounded-md shadow-md"
-              alt="Neon-Gaming"
-            />
-          </picture>
+          <BaseImg
+            size="md"
+            class="rounded-md shadow-md"
+            src="Neon-Gaming.jpg"
+            alt="شعار سنتر ألعاب "
+          />
         </div>
       </div>
     </div>
