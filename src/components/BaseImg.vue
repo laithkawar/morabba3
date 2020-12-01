@@ -1,16 +1,23 @@
 <template>
   <!-- For explanation of v-if v-else see https://vuejs.org/v2/guide/conditional.html -->
   <!--  -->
+  <!-- SVGs: default is to include if smaller than 5kb -->
+  <!-- For SVGs no img-class can be used, just class -->
+  <div
+    v-if="isSVG()"
+    v-html="require('~/assets/images_svg/' + src + '?include')"
+  />
+
   <!-- if gif filetype, no reponsive sizes generated, just webp and compression -->
   <!-- Note: for GIF, the `size` property is ignored -->
-  <picture v-if="isGif()">
+  <picture v-else-if="isGIF()">
     <source
       :data-srcset="require('~/assets/images_gif/' + src + '?webp')"
       type="image/webp"
     />
     <img
       :data-src="require('~/assets/images_gif/' + src)"
-      class="lazyload"
+      :class="['lazyload', imgClass]"
       :alt="alt"
     />
   </picture>
@@ -35,7 +42,7 @@
     <img
       :data-src="require('~/assets/images/' + src)"
       :src="require('~/assets/images/' + src + '?lqip')"
-      class="lazyload"
+      :class="['lazyload', imgClass]"
       :alt="alt"
     />
   </picture>
@@ -60,7 +67,7 @@
     <img
       :data-src="require('~/assets/images/' + src)"
       :src="require('~/assets/images/' + src + '?lqip')"
-      class="lazyload"
+      :class="['lazyload', imgClass]"
       :alt="alt"
     />
   </picture>
@@ -85,7 +92,7 @@
     <img
       :data-src="require('~/assets/images/' + src)"
       :src="require('~/assets/images/' + src + '?lqip')"
-      class="lazyload"
+      :class="['lazyload', imgClass]"
       :alt="alt"
     />
   </picture>
@@ -94,7 +101,9 @@
 <script>
 export default {
   props: {
-    // the name of the image in ~/assets/images folder
+    // the name of the image in ~/assets/images or images_svg or images_gif folders
+    // choosen automatic based on image extension
+    // Use as: <BaseImage src="someimg.gif" ... />
     src: {
       type: String,
       default: '',
@@ -106,31 +115,36 @@ export default {
     },
     // Size of responsive img
     // sm (max 200px width), md (max 640px width) or lg (max 1080px width)
+    // DOES NOT apply to .gif or .svg
     size: {
       type: String,
       default: 'md',
     },
-    // // classes to apply to inner <img> tag (tailwindcss and so on)
+    // classes to apply to inner <img> tag (tailwindcss and so on)
+    // DOES NOT apply to .svg
+    // Use as <BaseImage img-class="..." ... />
     imgClass: {
       type: String,
       default: '',
     },
   },
   methods: {
-    isGif() {
+    isGIF() {
       return this.src.endsWith('.gif');
+    },
+    isSVG() {
+      return this.src.endsWith('.svg');
     },
   },
 };
 </script>
 
 <style scoped>
-picture {
+/* picture {
   @apply overflow-hidden;
-}
+} */
 
 picture img {
-  @apply w-full;
   @apply object-cover;
   @apply object-center;
 }

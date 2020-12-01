@@ -12,10 +12,7 @@
           >
             <div class="flex items-center justify-between w-full md:w-auto">
               <a href="#" aria-label="Home">
-                <div
-                  v-html="require('~/assets/square-logo.svg?include')"
-                  class="w-10"
-                />
+                <BaseImg src="square-logo.svg" class="w-10" />
               </a>
               <div class="flex items-center -mr-2 md:hidden">
                 <button
@@ -101,12 +98,13 @@
             aria-labelledby="main-menu"
           >
             <div class="flex items-center justify-between px-5 pt-4">
-              <div>
+              <!-- <div>
                 <div
                   v-html="require('~/assets/square-logo.svg?include')"
                   class="w-auto h-8"
                 />
-              </div>
+              </div> -->
+              <BaseImg src="square-logo.svg" class="h-8" />
               <div class="-mr-6">
                 <button
                   type="button"
