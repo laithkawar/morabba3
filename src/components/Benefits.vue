@@ -20,7 +20,7 @@
         <div
           class="flex flex-col items-center p-4 mb-6 text-center md:w-1/3 md:mb-0"
         >
-          <div
+          <!-- <div
             class="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 mb-5 text-indigo-500 bg-indigo-100 rounded-full"
           >
             <svg
@@ -34,7 +34,11 @@
             >
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
-          </div>
+          </div> -->
+          <BaseImg
+            src="payment.svg"
+            class="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 mb-5 text-indigo-500 rounded-full"
+          />
           <div class="flex-grow">
             <h2 class="mb-3 text-lg font-medium text-gray-900 title-font">
               ادفع فقط إذا كنت سعيدًا بتصميم الشعار
