@@ -1,7 +1,7 @@
 <template>
   <div class="max-w-screen-lg mx-auto mb-8 text-lg">
     <h1
-      class="mt-12 mb-12 text-3xl font-extrabold leading-8 tracking-tight text-center text-gray-900 sm:text-4xl sm:leading-10 xsm:mt-36"
+      class="mt-12 mb-12 text-2xl font-extrabold leading-8 tracking-tight text-center text-gray-900 md:text-3xl sm:leading-10"
     >
       {{ header }}
     </h1>

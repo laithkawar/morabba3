@@ -1,9 +1,9 @@
 <template>
   <div>
     <div
-      class="relative max-w-screen-lg pt-6 pb-12 mx-auto sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32"
+      class="relative max-w-screen-xl pt-10 mx-auto pb-14 sm:pb-14 md:pb-16 lg:pb-18"
     >
-      <div class="max-w-screen-xl px-4 mx-auto sm:px-6">
+      <div class="max-w-screen-xl mx-auto sm:px-6">
         <nav
           class="relative flex items-center justify-between sm:h-10 md:justify-center"
         >
@@ -12,7 +12,7 @@
           >
             <div class="flex items-center justify-between w-full md:w-auto">
               <a href="#" aria-label="Home">
-                <BaseImg src="square-logo.svg" class="w-10" />
+                <BaseImg src="square-logo.svg" class="mr-4 w-15 sm:mr-0" />
               </a>
               <div class="flex items-center -mr-2 md:hidden">
                 <button
@@ -24,7 +24,7 @@
                   @click="isMenuShown = true"
                 >
                   <svg
-                    class="w-6 h-6"
+                    class="w-8 h-8"
                     stroke="currentColor"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -42,13 +42,8 @@
           </div>
           <div class="hidden md:flex md:space-x-10">
             <a
-              href="#"
+              href="#examples"
               class="ml-10 font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900"
-              >صمم شعارك</a
-            >
-            <a
-              href="#"
-              class="font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900"
               >أمثله</a
             >
             <a
@@ -57,9 +52,14 @@
               >كيف تعمل</a
             >
             <a
-              href="#"
+              href="#benefits"
               class="font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900"
-              >اتصل بنا</a
+              >ميزات</a
+            >
+            <a
+              href="#contact-us"
+              class="font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900"
+              >تواصل بنا</a
             >
           </div>
           <div
@@ -67,7 +67,7 @@
           >
             <span class="inline-flex rounded-md shadow">
               <a
-                href="Signup.html"
+                :href="href"
                 class="inline-flex items-center px-4 py-2 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-500 focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo active:bg-gray-50 active:text-indigo-700"
               >
                 إشترك الآن
@@ -129,14 +129,18 @@
               </div>
             </div>
             <div class="px-2 pt-2 pb-3 text-center">
-              <a
+              <NavBarTitles title="أمثله" href="#examples" />
+              <NavBarTitles title="كيف تعمل" href="#how-it-works" />
+              <NavBarTitles title="ميزات" href="#benefits" />
+              <NavBarTitles title="تواصل بنا" href="#contact-us" />
+              <!-- <a
                 href="#"
                 class="block px-3 py-2 mt-1 text-base font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50"
                 role="menuitem"
                 >صمم شعارك</a
               >
               <a
-                href="#"
+                href="#examples"
                 class="block px-3 py-2 mt-1 text-base font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50"
                 role="menuitem"
                 >أمثله</a
@@ -152,11 +156,11 @@
                 class="block px-3 py-2 mt-1 text-base font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50"
                 role="menuitem"
                 >اتصل بنا</a
-              >
+              > -->
             </div>
             <div>
               <a
-                href="Signup.html"
+                :href="href"
                 class="block w-full px-5 py-3 font-medium text-center text-indigo-600 transition duration-150 ease-in-out bg-gray-50 hover:bg-indigo-500 hover:text-white focus:outline-none focus:bg-gray-100 focus:text-indigo-700"
                 role="menuitem"
               >
@@ -176,6 +180,10 @@ export default {
     isMenuShown: {
       type: Boolean,
       default: false,
+    },
+    href: {
+      type: String,
+      default: '',
     },
   },
 };

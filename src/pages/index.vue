@@ -1,13 +1,14 @@
 <template>
   <div>
-    <SignupHero />
-    <TextSection
+    <SignupHero id="signup" />
+
+    <!-- <TextSection
       header="إجلب رؤيتك إلى الحياة"
       subheader="مصنوع للإستعمال باللغة العربيه وللإستخدام السلس بدون معرفة سابقة
       بالتصميم الغرافيكي. صمم شعار جذاب و محترف لشركتك بمساعدة تطبيق مربع الآن!"
-    />
+    /> -->
     <MultiImageSection />
-    <Benefits />
+    <Benefits id="benefits" />
     <TextSection
       id="how-it-works"
       header="خطوات تصميم شعارك المثالي."
@@ -41,8 +42,9 @@
         </div>
       </div>
     </section>
-    <Button />
+    <Button href="#signup" />
     <TextSection
+      id="meet-the-team"
       header="تعارف على الفريق"
       subheader="يتكون فريقنا من مصممين ومطورين ومبرمجين موهوبين للغاية. اكتشف من هم
             أدناه!"
