@@ -8,13 +8,10 @@
       بالتصميم الغرافيكي. صمم شعار جذاب و محترف لشركتك بمساعدة تطبيق مربع الآن!"
     /> -->
     <MultiImageSection />
-    <Benefits id="benefits" />
     <TextSection
+      class="-mt-6"
       id="how-it-works"
       header="خطوات تصميم شعارك المثالي."
-      subheader="يمنحك مربع كل ما تحتاجه لإطلاق علامتك التجارية لتبدو رائعة من اليوم
-            الأول. أفضل جزء؟ يقوم الذكاء الاصطناعي بعمل معظم التصميم الجرافيكي،
-            و يوفر لك التحكم الإبداعي الكامل. لا تضيع وقتك على مصمم باهظ الثمن!"
     />
     <section class="text-gray-700 body-font">
       <div class="container px-5 py-2 mx-auto">
@@ -42,19 +39,18 @@
         </div>
       </div>
     </section>
-    <Button href="#signup" />
+    <Benefits id="benefits" />
     <TextSection
       id="meet-the-team"
-      header="تعارف على الفريق"
-      subheader="يتكون فريقنا من مصممين ومطورين ومبرمجين موهوبين للغاية. اكتشف من هم
-            أدناه!"
+      header="تعرف على فريقنا"
+      subheader="يتكون فريقنا من مصممين ومطورين ومبرمجين موهوبين للغاية. اكتشف من هم!"
     />
     <div
-      class="max-w-screen-xl px-4 py-12 mx-auto text-center sm:px-6 lg:px-8 lg:py-24"
+      class="max-w-screen-xl px-4 py-8 mx-auto mb-20 text-center sm:px-6 md:py-12 lg:px-8"
     >
       <div class="space-y-12">
         <ul
-          class="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-3 lg:max-w-5xl"
+          class="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-8 sm:space-y-0 lg:grid-cols-3 lg:max-w-5xl"
         >
           <TeamSection
             image="laith.jpg"
@@ -74,6 +70,13 @@
         </ul>
       </div>
     </div>
+    <TextSection
+      class=""
+      subheader="يمنحك مربع كل ما تحتاجه لإطلاق علامة تجارية مذهلة من اليوم
+            الأول. أفضل جزء أن الذكاء الاصطناعي سيقوم بمعظم التصميم الجرافيكي،
+            و يوفر لك التحكم الإبداعي الكامل!"
+    />
+    <Button href="#signup" />
   </div>
 </template>
 

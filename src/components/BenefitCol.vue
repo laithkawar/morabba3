@@ -1,5 +1,7 @@
 <template>
-  <div class="flex flex-col items-center p-4 mb-6 text-center md:w-1/3 md:mb-0">
+  <div
+    class="flex flex-col items-center justify-center p-4 mb-6 text-center sm:w-1/3 sm:mb-0"
+  >
     <!-- <div
             class="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 mb-5 text-indigo-500 bg-indigo-100 rounded-full"
           >
@@ -15,13 +17,13 @@
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
           </div> -->
-    <!-- <div
-      class="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 mb-5 text-indigo-500 bg-indigo-100 rounded-full"
-    > -->
-    <BaseImg size="md" :src="image" class="w-12" />
-    <!-- </div> -->
+    <div
+      class="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 mb-5 text-indigo-500 bg-white rounded-full"
+    >
+      <BaseImg size="md" :src="image" class="w-12 text-indigo-700" />
+    </div>
     <div class="flex-grow">
-      <h2 class="mt-5 mb-3 text-xl text-center text-gray-500">
+      <h2 class="mt-5 mb-3 text-xl text-center text-white">
         {{ header }}
         <!-- ادفع فقط إذا كنت سعيدًا بتصميم الشعار -->
       </h2>

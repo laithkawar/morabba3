@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="relative max-w-screen-xl pt-10 mx-auto pb-14 sm:pb-14 md:pb-16 lg:pb-18"
+      class="relative max-w-screen-xl pt-8 mx-auto pb-14 sm:pb-14 md:pb-16 lg:pb-18"
     >
       <div class="max-w-screen-xl mx-auto sm:px-6">
         <nav
@@ -12,7 +12,7 @@
           >
             <div class="flex items-center justify-between w-full md:w-auto">
               <a href="#" aria-label="Home">
-                <BaseImg src="square-logo.svg" class="mr-4 w-15 sm:mr-0" />
+                <BaseImg src="square-logo.svg" class="ml-2 mr-4 w-15" />
               </a>
               <div class="flex items-center -mr-2 md:hidden">
                 <button
@@ -63,7 +63,7 @@
             >
           </div>
           <div
-            class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0"
+            class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-2"
           >
             <span class="inline-flex rounded-md shadow">
               <a

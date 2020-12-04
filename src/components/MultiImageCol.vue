@@ -2,7 +2,7 @@
   <div class="flex justify-center col-span-1 px-4 py-4 max-w-64">
     <BaseImg
       class="w-full"
-      img-class="w-full rounded-md shadow-md"
+      img-class="w-full mb-2 rounded-md shadow-md"
       :src="image"
       :alt="name"
     />

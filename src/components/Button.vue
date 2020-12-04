@@ -1,5 +1,7 @@
 <template>
-  <div class="max-w-sm py-8 mx-auto mb-2 sm:py-12 sm:justify-center md:py-20">
+  <div
+    class="max-w-sm px-16 py-2 mx-auto mb-20 sm:py-2 sm:justify-center sm:mb-28 md:px-20"
+  >
     <div class="rounded-md shadow">
       <a
         :href="href"

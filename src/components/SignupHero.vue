@@ -11,7 +11,7 @@
           <br class="xl:hidden" />
         </h2>
         <p
-          class="max-w-sm mx-auto mt-8 text-gray-500 lg:mr-2 sm:text-center md:text-right sm:text-lg md:mt-12 md:text-xl md:max-w-2xl"
+          class="max-w-sm mx-auto mt-12 text-gray-500 lg:mr-2 sm:text-center md:text-right sm:text-lg md:mt-12 md:text-xl md:max-w-2xl"
         >
           استخدم منصة “مربع” المدعومة بالذكاء الاصطناعي لتصميم شعار بنفسك وبناء
           علامة تجارية تحبها.
@@ -21,7 +21,7 @@
     <div
       class="flex-col justify-center min-h-full px-10 md:w-1/2 w-fullflex sm:px-8 md:px-10 lg:px-12"
     >
-      <div class="mt-10 md:mt-2 sm:mx-auto sm:w-full sm:max-w-md">
+      <div class="mt-20 md:mt-2 sm:mx-auto sm:w-full sm:max-w-md">
         <div class="px-6 py-8 bg-indigo-600 rounded-lg shadow sm:px-10">
           <form
             action="https://gmail.us2.list-manage.com/subscribe/post?u=dae534f8b5213e1878378fb2d&amp;id=d0c72289ed"
