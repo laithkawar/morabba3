@@ -41,6 +41,7 @@
     </section>
     <Benefits id="benefits" />
     <TextSection
+      class="-mt-2"
       id="meet-the-team"
       header="تعرف على فريقنا"
       subheader="يتكون فريقنا من مصممين ومطورين ومبرمجين موهوبين للغاية. اكتشف من هم!"

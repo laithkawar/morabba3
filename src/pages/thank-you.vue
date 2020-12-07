@@ -1,7 +1,7 @@
 <template>
-  <div class="fixed inset-0 z-10 overflow-y-auto">
+  <div class="inset-0 z-10 overflow-y-auto">
     <div
-      class="flex items-end justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0"
+      class="flex items-end justify-center min-h-full px-4 py-16 text-center sm:block"
     >
       <!--
       Background overlay, show/hide based on modal state.
@@ -13,16 +13,16 @@
         From: "opacity-100"
         To: "opacity-0"
     -->
-      <div class="fixed inset-0 transition-opacity" aria-hidden="true">
+      <!-- <div class="fixed inset-0 transition-opacity" aria-hidden="true">
         <div class="absolute inset-0 bg-gray-500 opacity-75"></div>
-      </div>
+      </div> -->
 
       <!-- This element is to trick the browser into centering the modal contents. -->
-      <span
+      <!-- <span
         class="hidden sm:inline-block sm:align-middle sm:h-screen"
         aria-hidden="true"
         >&#8203;</span
-      >
+      > -->
       <!--
       Modal panel, show/hide based on modal state.
 
@@ -34,7 +34,7 @@
         To: "opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
     -->
       <div
-        class="inline-block px-4 pt-5 pb-4 overflow-hidden text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:my-8 sm:align-middle sm:max-w-sm sm:w-full sm:p-6"
+        class="inline-block max-w-sm px-4 pt-5 pb-4 overflow-hidden text-left transition-all transform bg-white rounded-lg shadow-xl sm:my-8 sm:w-full sm:p-6"
         role="dialog"
         aria-modal="true"
         aria-labelledby="modal-headline"

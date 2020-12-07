@@ -2,7 +2,7 @@
   <section>
     <div class="mt-16 bg-indigo-600">
       <div class="container justify-center px-5 py-12 mx-auto">
-        <div class="mt-6 text-center mb-14">
+        <div class="mt-6 mb-20 text-center">
           <h1 class="text-2xl font-extrabold text-white sm:text-3xl title-font">
             ميزات و الفوائد إستعمال مربع
           </h1>
@@ -15,7 +15,7 @@
             <div class="inline-flex w-16 h-1 bg-indigo-500 rounded-full"></div>
           </div> -->
         </div>
-        <div class="flex flex-wrap -mx-4 -mt-4 -mb-10 sm:-m-4">
+        <div class="flex flex-wrap mx-6 -mt-4 -mb-10 sm:mx-auto sm:-m-4">
           <BenefitCol
             image="time.svg"
             header="تصاميم جميله جاهزة بدقائق. لا تنتظر مصممين بعض اليوم"
