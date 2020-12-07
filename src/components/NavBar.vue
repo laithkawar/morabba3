@@ -42,22 +42,22 @@
           </div>
           <div class="hidden md:flex md:space-x-10">
             <a
-              href="#examples"
+              href="/#examples"
               class="ml-10 font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900"
               >أمثله</a
             >
             <a
-              href="#how-it-works"
+              href="/#how-it-works"
               class="font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900"
               >كيف تعمل</a
             >
             <a
-              href="#benefits"
+              href="/#benefits"
               class="font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900"
               >ميزات</a
             >
             <a
-              href="#contact-us"
+              href="/#contact-us"
               class="font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900"
               >تواصل بنا</a
             >
@@ -129,10 +129,10 @@
               </div>
             </div>
             <div class="px-2 pt-2 pb-3 text-center">
-              <NavBarTitles title="أمثله" href="#examples" />
-              <NavBarTitles title="كيف تعمل" href="#how-it-works" />
-              <NavBarTitles title="ميزات" href="#benefits" />
-              <NavBarTitles title="تواصل بنا" href="#contact-us" />
+              <NavBarTitles title="أمثله" href="/#examples" />
+              <NavBarTitles title="كيف تعمل" href="/#how-it-works" />
+              <NavBarTitles title="ميزات" href="/#benefits" />
+              <NavBarTitles title="تواصل بنا" href="/#contact-us" />
               <!-- <a
                 href="#"
                 class="block px-3 py-2 mt-1 text-base font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50"

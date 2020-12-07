@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NavBar href="#signup" />
+    <NavBar href="/#signup" />
 
     <!-- <div class="max-w-screen-lg mx-auto bg-red-500"> -->
     <Nuxt />
