@@ -1,5 +1,5 @@
 <template>
-  <div class="inset-0 z-10 overflow-y-auto">
+  <div class="inset-0 overflow-y-auto">
     <div
       class="flex items-end justify-center min-h-full px-4 py-16 text-center sm:block"
     >

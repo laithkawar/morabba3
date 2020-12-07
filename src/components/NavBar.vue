@@ -88,7 +88,7 @@
             -->
       <div
         :class="{ hidden: !isMenuShown }"
-        class="absolute inset-x-0 top-0 p-2 transition origin-top-right transform md:hidden"
+        class="absolute inset-x-0 top-0 z-10 p-2 transition origin-top-right transform md:hidden"
       >
         <div class="rounded-lg shadow-md">
           <div
@@ -104,7 +104,7 @@
                   class="w-auto h-8"
                 />
               </div> -->
-              <BaseImg src="square-logo.svg" class="h-8" />
+              <BaseImg src="square-logo.svg" class="w-12" />
               <div class="-mr-6">
                 <button
                   type="button"
