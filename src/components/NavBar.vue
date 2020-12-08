@@ -11,7 +11,7 @@
             class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0"
           >
             <div class="flex items-center justify-between w-full md:w-auto">
-              <a href="#" aria-label="Home">
+              <a href="/" aria-label="Home">
                 <BaseImg src="square-logo.svg" class="ml-2 mr-4 w-15" />
               </a>
               <div class="flex items-center -mr-2 md:hidden">
