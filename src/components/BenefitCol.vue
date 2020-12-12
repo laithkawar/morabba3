@@ -27,12 +27,12 @@
         {{ header }}
         <!-- ادفع فقط إذا كنت سعيدًا بتصميم الشعار -->
       </h2>
-      <p class="text-base leading-relaxed">
+      <h3 class="text-base leading-relaxed">
         {{ subheader }}
         <!-- Blue bottle crucifix vinyl post-ironic four dollar toast vegan
         taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug
         VHS try-hard. -->
-      </p>
+      </h3>
       <!-- <a class="inline-flex items-center mt-3 text-indigo-500"
         >Learn More -->
       <!-- <svg

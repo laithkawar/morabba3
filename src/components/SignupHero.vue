@@ -4,19 +4,19 @@
       class="max-w-screen-md mx-auto md:mr-6 lg:w-1/2 md:w-1/2 sm:w-full sm:max-w-screen-md"
     >
       <div class="text-center">
-        <h2
+        <h1
           :id="id"
           class="mx-4 text-3xl font-extrabold text-gray-800 sm:mx-0 md:leading-11 sm:text-center md:text-right sm:leading-14 lg:text-4xl"
         >
           صمم علامتك التجارية المثاليه بدقائق!
           <br class="xl:hidden" />
-        </h2>
-        <p
+        </h1>
+        <h2
           class="max-w-sm mx-6 mt-12 text-gray-500 sm:mx-auto lg:mr-2 sm:text-center md:text-right sm:text-lg md:mt-12 md:text-xl md:max-w-2xl"
         >
           استخدم منصة “مربع” المدعومة بالذكاء الاصطناعي لتصميم شعار بنفسك وبناء
           علامة تجارية تحبها.
-        </p>
+        </h2>
       </div>
     </div>
     <div

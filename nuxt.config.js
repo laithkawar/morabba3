@@ -2,13 +2,17 @@ export default {
   target: 'static', 
   server: { 
     port: 3000, // default: 3000
-    host: '0.0.0.0' // default: localhost
+    host: '0.0.0.0', // default: localhost
   },
+  plugins: [{ 
+    src: '~plugins/ga.js',
+    mode: 'client' 
+  }],
   srcDir: 'src',
   // Auto load components. Docs: https://github.com/nuxt/components
   components: true,
   head: {
-    title: 'Welcome to Morabba3!',
+    title: 'مربع لتصميم الشعارات',
     meta: [
       { charset: 'utf-8' },
       {

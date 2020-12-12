@@ -21,9 +21,9 @@
         class="flex-shrink-0 w-64 mb-4 rounded-lg shadow-lg sm:mb-5"
       />
       <div class="flex-grow mr-6 sm:pl-8">
-        <h1 class="my-6 text-xl font-medium text-gray-900 title-font">
+        <h2 class="my-6 text-xl font-medium text-gray-900 title-font">
           {{ header }}
-        </h1>
+        </h2>
         <h3 class="mb-4">
           {{ subheader }}
         </h3>

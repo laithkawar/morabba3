@@ -61,17 +61,17 @@
             </svg>
           </div>
           <div class="mt-3 text-center sm:mt-5">
-            <h3
+            <h1
               class="text-lg font-medium leading-6 text-gray-900"
               id="modal-headline"
             >
               تم الاشتراك بنجاح!
-            </h3>
+            </h1>
             <div class="mt-6">
-              <p class="text-sm text-gray-500">
+              <h2 class="text-sm text-gray-500">
                 للأسف، هذه الخدمة غير متوفرة حاليا. سوف نتواصل بك على هذا البريد
                 الإلكتروني عندما تصبح الخدمة جاهزة
-              </p>
+              </h2>
             </div>
           </div>
         </div>

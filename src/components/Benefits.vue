@@ -3,9 +3,9 @@
     <div class="mt-16 bg-indigo-600">
       <div class="container justify-center px-5 py-12 mx-auto">
         <div class="mt-6 mb-20 text-center">
-          <h1 class="text-2xl font-extrabold text-white sm:text-3xl title-font">
-            ميزات و الفوائد إستعمال مربع
-          </h1>
+          <h2 class="text-2xl font-extrabold text-white sm:text-3xl title-font">
+            فوائد إستعمال مربع
+          </h2>
           <!-- <p class="mx-auto text-base leading-relaxed xl:w-2/4 lg:w-3/4">
             Blue bottle crucifix vinyl post-ironic four dollar toast vegan
             taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi

@@ -18,9 +18,9 @@
         <h4>
           {{ name }}
         </h4>
-        <p class="text-lg text-gray-500">
+        <h5 class="text-lg text-gray-500">
           {{ position }}
-        </p>
+        </h5>
       </div>
     </div>
   </li>
