@@ -1,13 +1,10 @@
 export default {
-  target: 'static', 
-  server: { 
+  target: 'static',
+  server: {
     port: 3000, // default: 3000
-    host: '0.0.0.0', // default: localhost
+    host: '0.0.0.0' // default: localhost
   },
-  plugins: [{ 
-    src: '~plugins/ga.js',
-    mode: 'client' 
-  }],
+  plugins: ['~plugins/ga.client.js'],
   srcDir: 'src',
   // Auto load components. Docs: https://github.com/nuxt/components
   components: true,
@@ -18,7 +15,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'A Nuxt.js example with Tailwind CSS v1.0 and Purgecss'
+        content: 'مربع لتصميم الشعارات'
       },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { 'http-equiv': 'x-ua-compatible', content: 'ie=edge,chrome=1' }
@@ -52,7 +49,7 @@ export default {
   },
   optimizedImages: {
     optimizeImages: true,
-    optimizeImagesInDev: true,
+    optimizeImagesInDev: false,
     inlineImageLimit: 5000
   }
 };
