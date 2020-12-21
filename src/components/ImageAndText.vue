@@ -1,5 +1,5 @@
 <template>
-  <div class="p-6 mx-auto md:mx-0 xl:w-1/2">
+  <div class="p-2 mx-auto md:mx-0 xl:w-1/2">
     <div
       class="flex flex-col items-center justify-center h-full text-center md:items-start sm:flex-row sm:justify-start sm:text-right"
     >
@@ -18,13 +18,14 @@
       <BaseImg
         size="md"
         :src="image"
-        class="flex-shrink-0 w-64 mb-4 rounded-lg shadow-lg sm:mb-5"
+        class="flex-shrink-0 mb-4 shadow-lg w-72 rounded-xl sm:mb-8"
+        img-class="rounded-lg"
       />
-      <div class="flex-grow mr-6 sm:pl-8">
+      <div class="flex-grow mr-6 sm:pl-0">
         <h2 class="my-6 text-xl font-medium text-gray-900 title-font">
           {{ header }}
         </h2>
-        <h3 class="mb-4">
+        <h3 class="mb-4 ml-2">
           {{ subheader }}
         </h3>
         <span class="inline-flex">

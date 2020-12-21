@@ -1,28 +1,28 @@
 <template>
   <div class="max-w-screen-lg mx-auto md:flex sm:py-20">
     <div
-      class="max-w-screen-md mx-auto md:mr-6 lg:w-1/2 md:w-1/2 sm:w-full sm:max-w-screen-md"
+      class="max-w-screen-md mx-auto md:mr-8 lg:w-1/2 md:w-1/2 sm:w-full sm:max-w-screen-md"
     >
       <div class="text-center">
         <h1
           :id="id"
           class="mx-4 text-3xl font-extrabold text-gray-800 sm:mx-0 md:leading-11 sm:text-center md:text-right sm:leading-14 lg:text-4xl"
         >
-          صمم علامتك التجارية المثاليه بدقائق!
+          قم بتصميم شعار مثالي بدقائق!
           <br class="xl:hidden" />
         </h1>
         <h2
-          class="max-w-sm mx-6 mt-12 text-gray-500 sm:mx-auto lg:mr-2 sm:text-center md:text-right sm:text-lg md:mt-12 md:text-xl md:max-w-2xl"
+          class="max-w-sm mx-6 mt-12 text-gray-500 sm:mx-auto sm:text-center lg:mr-2 md:text-right sm:text-lg md:mt-12 md:text-xl md:max-w-2xl"
         >
-          استخدم منصة “مربع” المدعومة بالذكاء الاصطناعي لتصميم شعار بنفسك وبناء
-          علامة تجارية تحبها.
+          إستخدم موقع تصميم شعار مدعومة بالذكاء الاصطناعي لتصميم شعار فوري بنفسك
+          وبناء علامة تجارية مثاليه.
         </h2>
       </div>
     </div>
     <div
       class="flex-col justify-center min-h-full px-8 md:w-1/2 w-fullflex sm:px-8 md:px-10 lg:px-12"
     >
-      <div class="mt-20 md:mt-2 sm:mx-auto sm:w-full sm:max-w-md">
+      <div class="mt-20 md:mt-2 md:-ml-2 sm:mx-auto sm:w-full sm:max-w-md">
         <div class="px-6 py-8 bg-indigo-600 rounded-lg shadow sm:px-10">
           <form
             action="https://gmail.us2.list-manage.com/subscribe/post?u=dae534f8b5213e1878378fb2d&amp;id=d0c72289ed"
@@ -31,9 +31,9 @@
             <div>
               <label
                 for="email"
-                class="block mt-4 mb-10 text-xl leading-5 text-center text-white font-large"
+                class="block mt-4 mb-10 text-xl leading-8 text-center text-white font-large"
               >
-                أدخل عنوان بريدك الاكتروني لتبدأ
+                أدخل عنوان بريدك الاكتروني لتبدأ.
               </label>
               <div class="mt-2 rounded-md shadow-sm">
                 <input
