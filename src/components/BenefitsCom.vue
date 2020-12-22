@@ -16,17 +16,17 @@
           </div> -->
         </div>
         <div class="flex flex-wrap mx-6 -mt-4 -mb-10 sm:mx-auto sm:-m-4">
-          <BenefitCol
+          <Benefit
             image="time.svg"
             header="إختار تصميم شعار اون لاين بدقائق . لا تنتظر مصممين بعد اليوم."
             subheader=""
           />
-          <BenefitCol
+          <Benefit
             image="payment.svg"
             header=" سيتوفر لك تشكيلة أكثر من لوجو جاهز لتختار منهم. ادفع فقط إذا كنت سعيدًا بتصميم الشعار."
             subheader=""
           />
-          <BenefitCol
+          <Benefit
             image="arab.svg"
             header=" مصمم من قبل عرب خصوصا للإستعمال السلس باللغة العربية. تصميم لوجو بالعربي لم يكون بهالسهولة من قبل!"
             subheader=""
