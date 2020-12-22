@@ -1,11 +1,12 @@
 <template>
   <div>
-    <SignupHero id="signup" />
+    <SignupHero id="signup" paid="true" />
     <MultiImageSection />
     <ImageAndTextCol />
     <BenefitsCom id="benefits" />
     <TeamSectionCom />
     <TextAndButton />
+    <Button paid="true" />
   </div>
 </template>
 

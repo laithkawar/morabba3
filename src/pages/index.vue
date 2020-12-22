@@ -6,6 +6,7 @@
     <BenefitsCom id="benefits" />
     <TeamSectionCom />
     <TextAndButton />
+    <Button />
   </div>
 </template>
 

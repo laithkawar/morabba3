@@ -54,7 +54,8 @@
                   name="subscribe"
                   class="flex justify-center w-full px-3 pt-3 pb-2 font-medium text-indigo-800 transition duration-150 ease-in-out bg-indigo-100 border border-transparent rounded-md text-md hover:bg-indigo-150 hover:text-gray-600 focus:outline-none focus:border-gray-500 focus:shadow-outline-indigo active:bg-indigo-700"
                 >
-                  ابدأ بالتصميم الآن
+                  <span v-if="paid">صمم شعار ١٩.٩٩$</span>
+                  <span v-else>صمم شعارك الآن</span>
                 </button>
               </span>
             </div>
@@ -67,6 +68,19 @@
 
 <script>
 export default {
-  props: ['id'],
+  props: {
+    // the name of the image in ~/assets/images or images_svg or images_gif folders
+    // choosen automatic based on image extension
+    // Use as: <BaseImage src="someimg.gif" ... />
+    id: {
+      type: String,
+      default: '/#signup',
+    },
+
+    paid: {
+      type: Boolean,
+      default: false,
+    },
+  },
 };
 </script>
