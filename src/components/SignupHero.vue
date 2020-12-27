@@ -32,6 +32,12 @@
             action="https://gmail.us2.list-manage.com/subscribe/post?u=dae534f8b5213e1878378fb2d&amp;id=d0c72289ed"
             method="POST"
           >
+            <input
+              type="hidden"
+              :value="paid ? 'YES' : 'NO'"
+              name="PAID"
+              id="mce-PAID"
+            />
             <div>
               <label
                 for="email"
