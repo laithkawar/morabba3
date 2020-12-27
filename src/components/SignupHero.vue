@@ -8,13 +8,17 @@
           :id="id"
           class="mx-4 text-3xl font-extrabold text-gray-800 sm:mx-0 md:leading-11 sm:text-center md:text-right sm:leading-14 lg:text-4xl"
         >
-          قم بتصميم شعار مثالي بدقائق!
+          <span v-if="paidheader"
+            >قم بتصميم شعار مثالي بدقائق بسعر منافس!
+          </span>
+          <span v-else>قم بتصميم شعار مثالي بدقائق!</span>
+
           <br class="xl:hidden" />
         </h1>
         <h2
-          class="max-w-sm mx-6 mt-12 text-gray-500 sm:mx-auto sm:text-center lg:mr-2 md:text-right sm:text-lg md:mt-12 md:text-xl md:max-w-2xl"
+          class="max-w-sm px-6 mx-auto mt-12 text-center text-gray-500 sm:px-0 md:mx-1 lg:mr-2 md:text-right sm:text-lg md:mt-12 md:text-xl md:max-w-2xl"
         >
-          إستخدم موقع تصميم شعار مدعومة بالذكاء الاصطناعي لتصميم شعار فوري بنفسك
+          إستخدم موقع تصميم شعار مدعوم بالذكاء الاصطناعي لتصميم شعار فوري بنفسك
           وبناء علامة تجارية مثاليه.
         </h2>
       </div>
@@ -78,6 +82,11 @@ export default {
     },
 
     paid: {
+      type: Boolean,
+      default: false,
+    },
+
+    paidheader: {
       type: Boolean,
       default: false,
     },

@@ -22,7 +22,7 @@ export default {
     // Use as: <BaseImage src="someimg.gif" ... />
     ref: {
       type: String,
-      default: '/#signup',
+      default: '',
     },
 
     paid: {
