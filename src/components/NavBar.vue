@@ -185,6 +185,10 @@ export default {
       type: String,
       default: '',
     },
+    paid: {
+      type: Boolean,
+      default: false,
+    },
   },
 };
 </script>

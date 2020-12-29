@@ -6,7 +6,7 @@
     <BenefitsCom id="benefits" />
     <TeamSectionCom />
     <TextAndButton />
-    <Button ref="/#signup" paid="true" />
+    <Button ref="signup" paid="true" />
   </div>
 </template>
 
