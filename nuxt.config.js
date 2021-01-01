@@ -4,7 +4,7 @@ export default {
     port: 3000, // default: 3000
     host: '0.0.0.0' // default: localhost
   },
-  plugins: ['~plugins/ga.client.js', '~plugins/hj.client.js'],
+  plugins: ['~plugins/ga.client.js'],
   srcDir: 'src',
   // Auto load components. Docs: https://github.com/nuxt/components
   components: true,
