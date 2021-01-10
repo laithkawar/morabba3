@@ -22,7 +22,8 @@ export default {
     ],
     htmlAttrs: {
       lang: 'ar',
-      dir: 'rtl'
+      dir: 'rtl',
+      class: 'notranslate'
     }
   },
   modules: [
