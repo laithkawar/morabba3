@@ -84,7 +84,7 @@ export default {
     // Use as: <BaseImage src="someimg.gif" ... />
     id: {
       type: String,
-      default: '/#signup',
+      default: '',
     },
 
     paid: {

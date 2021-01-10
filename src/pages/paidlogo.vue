@@ -1,12 +1,12 @@
 <template>
   <div>
-    <SignupHero id="signup" paid="true" paidheader="true" />
+    <SignupHero id="signup" v-bind:paid="true" v-bind:paidheader="true" />
     <MultiImageSection />
     <ImageAndTextCol />
     <BenefitsCom id="benefits" />
     <TeamSectionCom />
     <TextAndButton />
-    <Button ref="signup" paid="true" />
+    <Button link="#signup" v-bind:paid="true" />
   </div>
 </template>
 
