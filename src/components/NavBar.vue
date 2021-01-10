@@ -11,7 +11,7 @@
             class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0"
           >
             <div class="flex items-center justify-between w-full md:w-auto">
-              <a :href="href" aria-label="Home">
+              <a href="#" v-scroll-to="link" aria-label="Home">
                 <BaseImg src="square-logo.svg" class="ml-2 mr-4 w-15" />
               </a>
               <div class="flex items-center -mr-2 md:hidden">
@@ -71,7 +71,8 @@
           >
             <span class="inline-flex rounded-md shadow">
               <a
-                :href="href"
+                href="#"
+                v-scroll-to="link"
                 class="inline-flex items-center px-4 py-2 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-500 focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo active:bg-gray-50 active:text-indigo-700"
               >
                 إشترك الآن
@@ -166,7 +167,7 @@
               <div>
                 <a
                   href="#"
-                  v-scroll-to="href"
+                  v-scroll-to="link"
                   class="block w-full px-5 py-3 font-medium text-center text-indigo-600 transition duration-150 ease-in-out bg-gray-50 hover:bg-indigo-500 hover:text-white focus:outline-none focus:bg-gray-100 focus:text-indigo-700"
                   role="menuitem"
                 >
@@ -184,7 +185,7 @@
 <script>
 export default {
   props: {
-    href: {
+    link: {
       type: String,
       default: '',
     },
