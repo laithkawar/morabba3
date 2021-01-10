@@ -27,7 +27,9 @@ export default {
   },
   modules: [
     // Doc: https://github.com/pimlie/nuxt-rfg-icon
-    'nuxt-rfg-icon'
+    'nuxt-rfg-icon',
+    // Doc: https://github.com/rigor789/vue-scrollto
+    'vue-scrollto/nuxt'
   ],
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss

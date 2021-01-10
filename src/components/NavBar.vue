@@ -42,22 +42,26 @@
           </div>
           <div class="hidden md:flex md:space-x-10">
             <a
-              href="#examples"
+              href="#"
+              v-scroll-to="'#examples'"
               class="ml-10 font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900"
               >أمثله</a
             >
             <a
-              href="#how-it-works"
+              href="#"
+              v-scroll-to="'#how-it-works'"
               class="font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900"
               >كيف تعمل</a
             >
             <a
-              href="#benefits"
+              href="#"
+              v-scroll-to="'#benefits'"
               class="font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900"
               >ميزات</a
             >
             <a
-              href="#contact-us"
+              href="#"
+              v-scroll-to="'#contact-us'"
               class="font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900"
               >تواصل بنا</a
             >
@@ -128,12 +132,13 @@
                 </button>
               </div>
             </div>
-            <div class="px-2 pt-2 pb-3 text-center">
-              <NavBarTitles title="أمثله" href="#examples" />
-              <NavBarTitles title="كيف تعمل" href="#how-it-works" />
-              <NavBarTitles title="ميزات" href="#benefits" />
-              <NavBarTitles title="تواصل بنا" href="#contact-us" />
-              <!-- <a
+            <div @click="isMenuShown = false">
+              <div class="px-2 pt-2 pb-3 text-center">
+                <NavBarTitles title="أمثله" href="#examples" />
+                <NavBarTitles title="كيف تعمل" href="#how-it-works" />
+                <NavBarTitles title="ميزات" href="#benefits" />
+                <NavBarTitles title="تواصل بنا" href="#contact-us" />
+                <!-- <a
                 href="#"
                 class="block px-3 py-2 mt-1 text-base font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50"
                 role="menuitem"
@@ -157,15 +162,17 @@
                 role="menuitem"
                 >اتصل بنا</a
               > -->
-            </div>
-            <div>
-              <a
-                :href="href"
-                class="block w-full px-5 py-3 font-medium text-center text-indigo-600 transition duration-150 ease-in-out bg-gray-50 hover:bg-indigo-500 hover:text-white focus:outline-none focus:bg-gray-100 focus:text-indigo-700"
-                role="menuitem"
-              >
-                إشترك الآن
-              </a>
+              </div>
+              <div>
+                <a
+                  href="#"
+                  v-scroll-to="href"
+                  class="block w-full px-5 py-3 font-medium text-center text-indigo-600 transition duration-150 ease-in-out bg-gray-50 hover:bg-indigo-500 hover:text-white focus:outline-none focus:bg-gray-100 focus:text-indigo-700"
+                  role="menuitem"
+                >
+                  إشترك الآن
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -177,10 +184,6 @@
 <script>
 export default {
   props: {
-    isMenuShown: {
-      type: Boolean,
-      default: false,
-    },
     href: {
       type: String,
       default: '',
@@ -189,6 +192,11 @@ export default {
       type: Boolean,
       default: false,
     },
+  },
+  data() {
+    return {
+      isMenuShown: false,
+    };
   },
 };
 </script>
