@@ -1,89 +1,26 @@
 <template>
-  <div class="inset-0 overflow-y-auto">
+  <div class="py-12 bg-white mb-28">
     <div
-      class="flex items-end justify-center min-h-full px-4 py-16 mb-48 text-center sm:block"
+      class="max-w-2xl px-8 py-16 mx-auto text-center sm:py-20 sm:px-6 lg:px-8"
     >
-      <!--
-      Background overlay, show/hide based on modal state.
-
-      Entering: "ease-out duration-300"
-        From: "opacity-0"
-        To: "opacity-100"
-      Leaving: "ease-in duration-200"
-        From: "opacity-100"
-        To: "opacity-0"
-    -->
-      <!-- <div class="fixed inset-0 transition-opacity" aria-hidden="true">
-        <div class="absolute inset-0 bg-gray-500 opacity-75"></div>
-      </div> -->
-
-      <!-- This element is to trick the browser into centering the modal contents. -->
-      <!-- <span
-        class="hidden sm:inline-block sm:align-middle sm:h-screen"
-        aria-hidden="true"
-        >&#8203;</span
-      > -->
-      <!--
-      Modal panel, show/hide based on modal state.
-
-      Entering: "ease-out duration-300"
-        From: "opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
-        To: "opacity-100 translate-y-0 sm:scale-100"
-      Leaving: "ease-in duration-200"
-        From: "opacity-100 translate-y-0 sm:scale-100"
-        To: "opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
-    -->
-      <div
-        class="inline-block max-w-sm px-4 pt-5 pb-4 overflow-hidden text-left transition-all transform bg-white rounded-lg shadow-xl sm:my-8 sm:w-full sm:p-6"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="modal-headline"
+      <h2 class="text-3xl font-extrabold text-gray-600 sm:text-4xl">
+        <span class="block">للأسف هذه الخدمة ليست جاهزة حاليا.</span>
+        <span class="block"></span>
+        <span class="block xl:inline"
+          >لكن, هل ترغب قسيمة شراء من أمازون بقيمة</span
+        >
+        <span class="block text-indigo-700 xl:inline">٧٥ ريال؟</span>
+      </h2>
+      <p class="my-8 text-lg leading-6 text-gray-500">
+        نحتاج مساعدتك لتحسين مربع! إذا كنت مهتم, سنسألك كم سؤال عن إحتياجاتك و
+        مشاكلك التصميميه على زوم.
+      </p>
+      <a
+        href="calendly.com/morabba3/interviews"
+        class="inline-flex items-center justify-center w-full px-10 py-6 mt-10 text-base font-bold text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-50 sm:w-auto"
       >
-        <div>
-          <div
-            class="flex items-center justify-center w-12 h-12 mx-auto bg-green-100 rounded-full"
-          >
-            <!-- Heroicon name: check -->
-            <svg
-              class="w-6 h-6 text-green-600"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              aria-hidden="true"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M5 13l4 4L19 7"
-              />
-            </svg>
-          </div>
-          <div class="mt-3 text-center sm:mt-5">
-            <h1
-              class="text-lg font-medium leading-6 text-gray-900"
-              id="modal-headline"
-            >
-              تم الاشتراك بنجاح!
-            </h1>
-            <div class="mt-6">
-              <h2 class="text-sm text-gray-500">
-                للأسف، هذه الخدمة غير متوفرة حاليا. سوف نتواصل بك على هذا البريد
-                الإلكتروني عندما تصبح الخدمة جاهزة
-              </h2>
-            </div>
-          </div>
-        </div>
-        <div class="mt-8 sm:mt-6">
-          <a
-            href="/"
-            class="inline-flex justify-center w-full px-4 py-2 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm"
-          >
-            العودة إلى الصفحة الرئيسية
-          </a>
-        </div>
-      </div>
+        إحجز دردشة زوم</a
+      >
     </div>
   </div>
 </template>
